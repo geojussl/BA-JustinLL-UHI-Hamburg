@@ -3,8 +3,8 @@ Bachelorarbeit: Dynamiken städtischer Wärmeinseln (UHI) - Zeitserienanalyse de
 
 Quellen:
 -Google Documentation (o. J.). Google Earth Engine API-Dokumentation.URL: https://developers.google.com/earth-engine/apidocs (Stand: 28.07.25)
-- LST Visualisierung: Medium.com:URL:https://medium.com/@ridhomuh002/analyzing-land-surface-temperature-lst-with-landsat-8-data-in-google-earth-engine-f4dd7ca28e70 (Stand: 26.07.25)
-- OpenAI: ChatGPT (Version o4), https://chat.openai.com/, Stand: 22.07.2025.*
+-LST Visualisierung: Medium.com:URL:https://medium.com/@ridhomuh002/analyzing-land-surface-temperature-lst-with-landsat-8-data-in-google-earth-engine-f4dd7ca28e70 (Stand: 26.07.25)
+-OpenAI: ChatGPT (Version o4), https://chat.openai.com/, Stand: 22.07.2025.*
 -Youtube: Google Earth Engine Tut 153 | Our First Land Surface Temperature Image for our ROI | View From Space: https://www.youtube.com/watch?v=Q-ONsvJpPSA
 -YouTube: Google Earth Engine Tut 154 | An Iteration Process to Generate Many LST Images | View From Space: https://www.youtube.com/watch?v=WHtMY9etmtw&t=12s
 -YouTube: Google Earth Engine Tut 156 | Change of Dataset to Better Present LST & UHI Images | View From Space: https://www.youtube.com/watch?v=aV5PVeuXw7A

@@ -348,19 +348,6 @@ var zonaleStatistik_balken = ui.Chart.feature.groups({
   });
 print(zonaleStatistik_balken);
 
-// Langfristiger LST-Trend im Sommer (Lineare Regression)
-var sommerLST = sommer.select(["LST"]);
-
-var sommerLST_mitJahr = sommerLST.map(function(img){
-  var year = ee.Number.parse(ee.Date(img.get("system:time_start")).format("YYYY"));
-  return img.addBands(ee.Image.constant(year).rename("year")).float();
-});
-
-var regression = sommerLST_mitJahr.select(["year", "LST"])
-                       .reduce(ee.Reducer.linearFit());
-
-Map.addLayer(regression.select("scale"), {min: -0.5, max: 0.5, palette: ["blue", "white", "red"]}, "LST-Trend Sommer (°C/Jahr)");
-
 // Standartabweichung und Mittelwert LST pro Saison
 var saisonStats_lst = function(collection, year, seasonName, startMonth, endMonth) {
     var startDate, endDate;
@@ -1147,7 +1134,7 @@ layer_jahre_export(sommer, "LST", 1994, lstVis, "LST", "lst_1994_sommer",false);
 layer_jahre_export(sommer, "LST", 2004, lstVis, "LST", "lst_2004_sommer",false);
 layer_jahre_export(sommer, "LST", 2014, lstVis, "LST", "lst_2014_sommer",false);
 layer_jahre_export(sommer, "LST", 2024, lstVis, "LST", "lst_2024_sommer",false);
-layer_jahre_export(frueling; "LST", 1994, lstVis, "LST", "lst_1994_frueling",false);
+layer_jahre_export(frueling, "LST", 1994, lstVis, "LST", "lst_1994_frueling",false);
 layer_jahre_export(frueling, "LST", 2004, lstVis, "LST", "lst_2004_frueling",false);
 layer_jahre_export(frueling, "LST", 2014, lstVis, "LST", "lst_2014_frueling",false);
 layer_jahre_export(frueling, "LST", 2024, lstVis, "LST", "lst_2024_frueling",false);

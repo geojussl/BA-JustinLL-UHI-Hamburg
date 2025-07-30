@@ -12,6 +12,7 @@ Quellen:
 -YouTube: Google Earth Engine Tut 162 | In Pursuit of Urban Heat Map or Hot Spot for the ROI | View From Space: https://www.youtube.com/watch?v=HayJdZuB4YY
 -YouTube: Google Earth Engine 101: An Introduction for Complete Beginners: https://www.youtube.com/watch?v=oAElakLgCdA&t=1806s
 -Youtube: Google Earth Engine Tutorial-50: Urban Green Space Monitoring, using Sentinel-2: https://www.youtube.com/watch?v=BP_UtJ1i_MY
+-Youtube: How to Estimate Urban Green Space using Sentinel 2A imagery in Google Earth Engine: https://www.youtube.com/watch?v=QxwJwCdKi0E
 -YouTube: LST, Urban Heat Island Effect, and UTFVI Analysis using Google Earth Engine and Landsat dataset: https://www.youtube.com/watch?v=5W84zme9QmE
 
 *Hinweis: ChatGPT wurde innerhalb der Arbeit zur Bestimmung und Ausmerzung von Fehlerquellen im Code verwendet, sowie zur Strukturhilfe einiger Funktionen (layer_jahre_export, l8_preparel7_l5_prepare und zonenAnalyseJahr)

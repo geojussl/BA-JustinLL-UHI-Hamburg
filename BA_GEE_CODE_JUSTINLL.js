@@ -1,9 +1,18 @@
 /* Bachelorarbeit: Dynamiken städtischer Wärmeinseln: 
 Zeitserienanalyse der Auswirkungen urbaner Grünflächen auf das lokale Klima in Hamburg
 
+
+Der folgende Code befasst sich mit der Erstellung von Oberflächentemperaturen (LST), 
+Zeitserienanalysen der LST, sowie verschiedener Indizes (NDVI, NDBI), Distanz zur nächsten Grünfläche,
+Flächenberechnung urbaner und begrünter Flächen, Validierung der Ergebnisse durch Korrelationen
+für den gegebenen Untersuchungsraum der Hansestadt hamburg über ein zeitintervall von 1994 bis 2024.
+Genutzt wurden Landsat 5, 7 und 8 Daten.
+
+Für Quellen steht das GitHub-Repository zur Verfügung: 
+
 Abgabe: 02.08.2025
 Autor: Justin Lingg-Laham
-Der folgende Code befasst sich mit der Erstellung von.................................................
+E-Mail. stu235613@uni-kiel.de
 */
 
 // Untersuchungsgebiet Hamburg
@@ -1110,7 +1119,7 @@ var korrelation_DISTLST_chart = ui.Chart.image.series({
 });
 print(korrelation_DISTLST_chart);
 
-/* Um Rechenleistung zu sparen ist folgende Funktion zum Export der LST-Layer ausgeklammert (Klammern entfernen wenn code funktionieren soll)
+
 // Darstellung in Karte und Export (Für Analyse nicht wichtig, aber zur Illustration und Export )
 function layer_jahre_export(collection, band, year, visParams, label, exportName) {
   var image = collection
@@ -1150,10 +1159,4 @@ layer_jahre_export(winter, "LST", 1994, lstVis, "LST", "lst_1994_winter",false);
 layer_jahre_export(winter, "LST", 2004, lstVis, "LST", "lst_2004_winter",false);
 layer_jahre_export(winter, "LST", 2014, lstVis, "LST", "lst_2014_winter",false);
 layer_jahre_export(winter, "LST", 2024, lstVis, "LST", "lst_2024_winter",false);
-*/
 
-/*
-Quellen:
--Google Documentation (o. J.). Google Earth Engine API-Dokumentation.URL: https://developers.google.com/earth-engine/apidocs (Stand: 28.07.25)
-- LST Visualisierung: Medium.com:URL:https://medium.com/@ridhomuh002/analyzing-land-surface-temperature-lst-with-landsat-8-data-in-google-earth-engine-f4dd7ca28e70 (Stand: 26.07.25)
-*/

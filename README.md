@@ -16,3 +16,4 @@ Quellen:
 -YouTube: LST, Urban Heat Island Effect, and UTFVI Analysis using Google Earth Engine and Landsat dataset: https://www.youtube.com/watch?v=5W84zme9QmE
 
 *Hinweis: ChatGPT wurde innerhalb der Arbeit zur Bestimmung und Ausmerzung von Fehlerquellen im Code verwendet, sowie zur Strukturhilfe einiger Funktionen (layer_jahre_export, l8_preparel7_l5_prepare und zonenAnalyseJahr)
+Zur Erstellung des QR-Codes wurde R verwendet

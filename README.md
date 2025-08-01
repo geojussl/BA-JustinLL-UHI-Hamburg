@@ -1,6 +1,9 @@
 # BA-JustinLL-UHI-Hamburg
 Bachelorarbeit: Dynamiken städtischer Wärmeinseln (UHI) - Zeitserienanalyse der Auswirkungen urbaner Grünflächen auf das lokale Klima in Hamburg. Analyse mit Google Earth Engine 
 
+Der Code befasst sich mit der Analyse der Dynamiken städtischer Wärmeinseln (UHI) und wird in diesem Repository zur Verfügung gestellt. Für die Reproduzierbarkeit ist zu vernehmen, dass Teile des Codes nach Belieben angepasst werden müssen, um die genaue Analyse der Bachelorarbeit nacharbeiten zu können. Darunter allen voran Zeile 190 Denn für die Berechnung der Indizes sowie die Distanz zur nächsten Grünfläche wurde jeweils der Ausschnitt ausgewählt, welcher zeitlich mit "sommerbildMedian" manuell ausgewählt wurde. Soll die Dist to Green in einem anderen Jahr analysiert werden, muss dies also händisch angepasst werden. Des Weiteren lassen sich mit der Funktion ab Zeile 1111 die Layer in der Karte anzeigen, sowie für den Export bereitstellen. Soll dies nicht bei jedem Re-run des Codes erfolgen, muss die Funktion vorher ausgegraut werden /* */
+Zudem kommen in Zeile 352 bei der Funktion saisonStats_lst in der Wintersaison Fehlermeldungen, aufgrund schlechter Datenlage der Saison. Es ist dennoch beabsichtigt, dass die Fehlermeldung im Code bestehen bleibt, da Sie innerhalb der Bachelorarbeit als Kritik beim Reflektieren der Methode bestehen bleibt.
+
 Quellen:
 -Google Documentation (o. J.). Google Earth Engine API-Dokumentation.URL: https://developers.google.com/earth-engine/apidocs (Stand: 28.07.25)
 -LST Visualisierung: Medium.com:URL:https://medium.com/@ridhomuh002/analyzing-land-surface-temperature-lst-with-landsat-8-data-in-google-earth-engine-f4dd7ca28e70 (Stand: 26.07.25)

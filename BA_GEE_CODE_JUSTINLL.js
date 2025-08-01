@@ -12,7 +12,7 @@ Für Quellen steht das GitHub-Repository zur Verfügung:
 
 Abgabe: 02.08.2025
 Autor: Justin Lingg-Laham
-E-Mail. stu235613@uni-kiel.de
+E-Mail: stu235613@uni-kiel.de
 */
 
 // Untersuchungsgebiet Hamburg
